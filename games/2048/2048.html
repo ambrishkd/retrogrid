@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon, Title, Stylesheet -->
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <title>2048 | Retrogrid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="2048.css">
+</head>
+<body>
+    <div class="containers hide">
+        <div class="heading">
+            <h1>&nbsp;</h1>
+            <div class="score-container">
+                Score:
+                <span id="score">0</span>
+            </div>
+        </div>
+        <div class="grid"></div>
+        <p id="instruction">Use arrow keys to play on computer</p>
+    </div>
+    <div class="cover-screen">
+        <h2 id="over-text" class="hide">Game Over</h2>
+        <p id="result"></p>
+        <p id="gamename">2048 | Retrogrid</p>
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <!-- Script -->
+    <script src="2048.js"></script>
+</body>
+</html>

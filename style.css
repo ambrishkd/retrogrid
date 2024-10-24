@@ -1,0 +1,19 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.company-name {
+    font-weight: 800;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+.hover-underline {
+    transition: color 0.3s ease;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
